@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background: #f2f9ff;
+  color: #333;
+}
+
+.header {
+  background: #0f4c75;
+  padding: 1rem 2rem;
+  color: #fff;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar .logo {
+  font-size: 1.8rem;
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav-links a {
+  color: #fff;
+  margin-left: 1.5rem;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero {
+  background: url('img/kids-bg.jpg') no-repeat center center/cover;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+  position: relative;
+}
+
+.hero::after {
+  content: "";
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 1;
+}
+
+.hero h1 {
+  font-size: 4rem;
+}
+
+.hero p {
+  font-size: 1.3rem;
+  margin-top: 10px;
+}
+
+.mission, .story, .impact {
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.mission h2, .story h2, .impact h2 {
+  color: #0f4c75;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.mission-imgs {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 1rem;
+}
+
+.mission-imgs img, .story img {
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.impact ul {
+  list-style: none;
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  line-height: 2;
+}
+
+.footer {
+  background: #0f4c75;
+  padding: 1.5rem;
+  color: #fff;
+  text-align: center;
+}
+
+.footer .socials a {
+  color: #fff;
+  margin: 0 10px;
+  font-size: 1.5rem;
+}
+/* Header Nav Links */
+.nav-links a {
+  color: #fff;
+  margin-left: 1.5rem;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #ffd700; /* Gold on hover */
+}
+
+/* Footer Social Icons */
+.footer .socials a {
+  color: #fff;
+  margin: 0 10px;
+  font-size: 1.5rem;
+  transition: color 0.3s ease;
+}
+
+.footer .socials a:hover {
+  color: #00ffff; /* Cyan on hover */
+}
+
+/* Footer Links (if any) */
+.footer a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer a:hover {
+  color: #ff6f61; /* Coral on hover */
+}
+.header:hover {
+  background-color: #145da0; /* Slightly brighter blue */
+}
+
+.footer:hover {
+  background-color: #145da0;
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact - Lofty</title>
+  <link rel="stylesheet" href="contact.css" />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+  <script src="contact.js" defer></script>
+</head>
+<body>
+  <div class="background"></div>
+  <div class="content">
+    <div class="container">
+      <header>
+        <h1>Contact Lofty</h1>
+        <nav>
+          <a href="home.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="servicess.html">Services</a>
+          <a href="donor.html">Become a Donor</a>
+          <a href="contact.html" class="active">Contact</a>
+        </nav>
+      </header>
+
+      <main>
+        <section class="contact-info">
+          <h2>Get in Touch</h2>
+          <p>
+            We're here to help or answer any questions you might have. Reach out to us!
+          </p>
+          <div class="info-boxes">
+            <div>
+              <i class="fa-solid fa-phone"></i>
+              <p>+1 (555) 123-4567</p>
+            </div>
+            <div>
+              <i class="fa-solid fa-envelope"></i>
+              <p>support@lofty.org</p>
+            </div>
+            <div>
+              <i class="fa-solid fa-location-dot"></i>
+              <p>123 Hope Street, Dream City, Earth</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="contact-form-section">
+          <h2>Send Us a Message</h2>
+          <form id="contactForm" novalidate>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required placeholder="Your full name" />
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required placeholder="Your email address" />
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required placeholder="Write your message here..."></textarea>
+
+            <button type="submit">Send Message</button>
+            <p id="formMessage" class="form-message"></p>
+          </form>
+        </section>
+      </main>
+
+      <footer>
+        <p>© 2025 Lofty - Helping Orphans & The Needy</p>
+        <div class="social-links">
+          <a href="https://www.instagram.com/lofty_worx"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://www.facebook.com"><i class="fa-brands fa-facebook"></i></a>
+          <a href="https://chat.whatsapp.com/HB1BrWeQ2viLZwNq29JKWc"><i class="fa-brands fa-whatsapp"></i></a>
+          <a href="https://t.me/loftyworx"><i class="fa-brands fa-telegram"></i></a>
+          <a href="https://youtube.com/@loftyworx"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+      </footer>
+    </div>
+  </div>
+</body>
+
+</html>
+
+

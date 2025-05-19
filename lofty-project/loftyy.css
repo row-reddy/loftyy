@@ -1,0 +1,113 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  scroll-behavior: smooth;
+  background-color: #e0f7fa;
+  color: #fff;
+}
+
+.backg {
+  min-height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.7)), 
+    url('img/orphans-background.jpg') no-repeat center center/cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 1rem 2rem;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+.auth-links a, .ls a {
+  margin: 0 10px;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+
+}
+
+.auth-links a, .ls a :hover{
+  color: #29b6f6;
+}
+
+.hero-text {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.hero-logo {
+  width: 150px;
+  margin-bottom: 1rem;
+}
+
+.brand {
+  color: #29b6f6;
+}
+
+.mission, .org-showcase, .cta {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 2rem;
+  margin: 2rem auto;
+  border-radius: 12px;
+  width: 90%;
+  max-width: 1100px;
+  text-align: center;
+}
+
+.org-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.card {
+  background-color: #ffffff10;
+  border-radius: 12px;
+  padding: 1rem;
+  width: 250px;
+  transition: transform 0.3s;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 0.5rem;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.donate-btn {
+  padding: 10px 20px;
+  background-color: #29b6f6;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+footer {
+  margin-top: auto;
+  width: 100%;
+  padding: 1rem 2rem;
+  background-color: rgba(0, 0, 0, 0.7);
+  text-align: center;
+}
+
+.ficon i {
+  margin: 0 10px;
+  font-size: 1.3rem;
+  color: #29b6f6;
+}
+
+

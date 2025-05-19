@@ -1,0 +1,41 @@
+<!-- donor.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Become a Donor - Lofty</title>
+  <link rel="stylesheet" href="donor.css" />
+</head>
+<body>
+  <div class="donor-container">
+    <h1>Become a Donor</h1>
+    <p>Your kindness can bring light to someone's life.</p>
+    <form id="donor-form">
+      <label for="fullName">Full Name:</label>
+      <input type="text" id="fullName" name="fullName" required />
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="donationType">Type of Donation:</label>
+      <select id="donationType" name="donationType" required>
+        <option value="">--Select--</option>
+        <option value="money">Money</option>
+        <option value="food">Food</option>
+        <option value="clothes">Clothes</option>
+        <option value="other">Other</option>
+      </select>
+
+      <label for="message">Message (Optional):</label>
+      <textarea id="message" name="message"></textarea>
+
+      <button type="submit">Donate Now</button>
+    </form>
+    <p class="success-message" id="successMessage"></p>
+  </div>
+
+  <script src="donor.js"></script>
+</body>
+</html>
+
